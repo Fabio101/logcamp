@@ -10,7 +10,7 @@ DevOps also benefits by being less prone to the disruptive nature of these kinds
 
 While Logcamp is strictly as simple a module as can be, the following forms part of its one key benefit.
 
-As it is often the case that FE and BE servers are seperated, existing community modules tend to not cater for this and assume that FE and BE exist on the same server, thus for Redbox, would only produce the log directories on the BE server and not of the FE server as the logs are accessed from within the Admin itself. Some examples of these modules are as follows:
+As it is often the case that FE and BE servers are seperated, existing community modules tend to not cater for this and assume that FE and BE exist on the same server, thus would only produce the log directories on the BE server and not of the FE server as the logs are accessed from within the Admin itself. Some examples of these modules are as follows:
 
 * https://www.magentocommerce.com/magento-connect/log-viewer-1.html
 * https://www.mgt-commerce.com/magento-graylog-log-management.html
@@ -21,7 +21,6 @@ What Logcamp allows for is the simple access to the below mentioned log director
 
 ![alt text](http://d2ioaku7np9ucf.cloudfront.net/logcamp.png "Diagram")
 
-Lastly, not to mention, Logcamp is free as it belongs to Redbox :)
 
 
 
