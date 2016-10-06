@@ -1,0 +1,38 @@
+<!DOCTYPE html
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<style>
+body {font-family: "lucida grande","Segoe UI",Arial, sans-serif; font-size: 14px;width:270;padding:1em;margin-left:auto;margin-right:auto;}
+label { display:block; font-size:11px; color:#555;}
+footer {font-size:11px; color:#bbbbc5; padding:1em 0 0;text-align: left;}
+footer a, footer a:visited {color:#bbbbc5;}
+</style>
+
+</script>
+</head><body>
+	<div id="top">
+		<img src="https://redbox-logcamp-assets-2016.s3-eu-west-1.amazonaws.com/logo.jpg" alt="Redbox Logo">
+		<br>
+                <br>
+	</div>
+
+        <form id='login' action='/logcamp/' method='post' accept-charset='UTF-8'>
+                     <fieldset >
+
+                        <legend>Login</legend>
+                        <input type='hidden' name='submitted' id='submitted' value='1'/>
+
+                        <label for='username' >UserName*:</label>
+                        <input type='text' name='username' id='username'  maxlength="50" />
+                        <br><br>
+
+                        <label for='password' >Password*:</label>
+                        <input type='password' name='password' id='password' maxlength="50" />
+
+                        <br><br><input type='submit' name='Submit' value='Submit' />
+
+                    </fieldset>
+        </form>
+	<footer>Simple Magento Log Portal | <a href="http://www.redboxdigital.com/" target="_blank">Redbox Digital Limited</a></footer>
+</body></html>

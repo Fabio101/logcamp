@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Redbox_Logcamp>
+            <version>0.1.0</version>
+        </Redbox_Logcamp>
+    </modules>
+    <frontend>
+        <routers>
+            <Logcamp>
+                <use>standard</use>
+                <args>
+                    <module>Redbox_Logcamp</module>
+                    <frontName>logcamp</frontName>
+                </args>
+            </Logcamp>
+            <Home>
+		<use>standard</use>
+                <args>
+                    <module>Redbox_Logcamp</module>
+                    <frontName>home</frontName>
+                </args>
+            </Home>
+        </routers>
+        <layout>
+            <updates>
+                <logcamp_home>
+                    <file>logcamp.xml</file>
+                </logcamp_home>
+            </updates>
+        </layout>
+     </frontend>
+</config>

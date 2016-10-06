@@ -1,0 +1,33 @@
+{
+    "name": "redbox/logcamp",
+    "type": "magento-module",
+    "description": "Simple Magento Log Portal",
+    "license": ["proprietary"],
+    "authors": [
+        {
+            "name": "Fabio Pinto",
+            "email": "fabio.pinto@redboxdigital.com",
+            "role": "DevOps"
+        }
+    ],
+    "extra": {
+        "map": [
+            [
+                "app/etc/modules/Redbox_Logcamp.xml",
+                "app/etc/modules/Redbox_Logcamp.xml"
+            ],
+            [
+                "app/code/local/Redbox/Logcamp",
+                "app/code/local/Redbox/Logcamp"
+            ],
+            [
+                "app/design/frontend/rwd/enterprise/layout/redbox/logcamp.xml",
+                "app/design/frontend/rwd/enterprise/layout/logcamp.xml"
+            ],
+            [
+                "app/design/frontend/rwd/enterprise/template/redbox/logcamp",
+                "app/design/frontend/rwd/enterprise/template/redbox/logcamp"
+            ]
+        ]
+    }
+}

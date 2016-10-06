@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Redbox_Logcamp>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Redbox_Logcamp>
+    </modules>
+</config>

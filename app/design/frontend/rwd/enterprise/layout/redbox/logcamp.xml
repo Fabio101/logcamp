@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<layout version="0.1.0">
+    <logcamp_home_index>
+        <reference name="content">
+            <block type="core/template" name="root" template="redbox/logcamp/home/logcamp.phtml"></block>
+        </reference>
+    </logcamp_home_index>
+    <logcamp_index_index>
+        <reference name="content">
+            <block type="core/template" name="root" template="redbox/logcamp/login/login.phtml"></block>
+        </reference>
+    </logcamp_index_index>
+</layout>
